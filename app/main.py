@@ -14,6 +14,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 @app.post("/process-docs")
 async def process_docs(payload: list[dict]):
+    print("Received payload:", payload)
     try:
         # Step 1: Clean data
         documents = clean_data(payload)

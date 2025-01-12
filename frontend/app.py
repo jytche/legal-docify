@@ -1,11 +1,17 @@
 import streamlit as st
 import requests
+from dotenv import load_dotenv
+import os
 import json
+
+load_dotenv()
 
 st.set_page_config(page_title="Legal Docify", layout="wide")
 
 st.title("Legal Docify")
 st.subheader("Create a summary for your legal matter in under a minute!")
+
+API_BASE_URL = os.getenv("API_BASE_URL")
 
 col1, col2, col3, col4 = st.columns([2,0.2,3,0.2])
 
@@ -35,7 +41,7 @@ with col1:
                 payload = json.loads(json_input)
 
                 st.info("Processing your data...")
-                response = requests.post("http://127.0.0.1:8000/process-docs", json=payload)
+                response = requests.post(f"{API_BASE_URL}/process-docs", json=payload)
 
                 if response.status_code == 200:
                     result = response.json()
