@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+openai
+pandas
+spacy
+python-dotenv
+boto3  # For AWS Lambda

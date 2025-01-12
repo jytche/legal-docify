@@ -1,0 +1,88 @@
+[
+  {
+    "doc_id": 1,
+    "content": [
+      {
+        "page_number": 1,
+        "width": 8.5,
+        "height": 11,
+        "unit": "inch",
+        "words": [
+          {"content": "Pikachu", "confidence": 0.995},
+          {"content": "is", "confidence": 0.996},
+          {"content": "an", "confidence": 0.994},
+          {"content": "Electric-type", "confidence": 0.991},
+          {"content": "Pokémon.", "confidence": 0.994},
+          {"content": "It", "confidence": 0.993},
+          {"content": "is", "confidence": 0.996},
+          {"content": "known", "confidence": 0.995},
+          {"content": "for", "confidence": 0.995},
+          {"content": "its", "confidence": 0.996},
+          {"content": "yellow", "confidence": 0.994},
+          {"content": "fur", "confidence": 0.994},
+          {"content": "and", "confidence": 0.996},
+          {"content": "red", "confidence": 0.994},
+          {"content": "cheeks.", "confidence": 0.994}
+        ],
+        "selection_marks": []
+      },
+      {
+        "page_number": 2,
+        "width": 8.5,
+        "height": 11,
+        "unit": "inch",
+        "words": [
+          {"content": "Charmander", "confidence": 0.995},
+          {"content": "is", "confidence": 0.996},
+          {"content": "a", "confidence": 0.995},
+          {"content": "Fire-type", "confidence": 0.991},
+          {"content": "Pokémon.", "confidence": 0.994},
+          {"content": "It", "confidence": 0.993},
+          {"content": "has", "confidence": 0.994},
+          {"content": "a", "confidence": 0.995},
+          {"content": "flame", "confidence": 0.995},
+          {"content": "on", "confidence": 0.996},
+          {"content": "its", "confidence": 0.994},
+          {"content": "tail", "confidence": 0.995},
+          {"content": "that", "confidence": 0.995},
+          {"content": "indicates", "confidence": 0.994},
+          {"content": "its", "confidence": 0.996},
+          {"content": "health.", "confidence": 0.994}
+        ],
+        "selection_marks": []
+      }
+    ]
+  },
+  {
+    "doc_id": 2,
+    "content": [
+      {
+        "page_number": 1,
+        "width": 8.5,
+        "height": 11,
+        "unit": "inch",
+        "words": [
+          {"content": "Bulbasaur", "confidence": 0.994},
+          {"content": "is", "confidence": 0.995},
+          {"content": "a", "confidence": 0.994},
+          {"content": "Grass/Poison-type", "confidence": 0.991},
+          {"content": "Pokémon.", "confidence": 0.994},
+          {"content": "It", "confidence": 0.993},
+          {"content": "has", "confidence": 0.994},
+          {"content": "a", "confidence": 0.995},
+          {"content": "plant", "confidence": 0.995},
+          {"content": "bulb", "confidence": 0.995},
+          {"content": "on", "confidence": 0.996},
+          {"content": "its", "confidence": 0.994},
+          {"content": "back", "confidence": 0.995},
+          {"content": "that", "confidence": 0.994},
+          {"content": "grows", "confidence": 0.995},
+          {"content": "as", "confidence": 0.995},
+          {"content": "it", "confidence": 0.995},
+          {"content": "evolves.", "confidence": 0.994}
+        ],
+        "selection_marks": []
+      }
+    ]
+  }
+]
