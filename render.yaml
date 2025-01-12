@@ -1,5 +1,5 @@
 services:
-  - name: fastapi-app
+  - name: legal-docify
     type: web 
     runtime: python 
     buildCommand: "pip install -r requirements.txt"
